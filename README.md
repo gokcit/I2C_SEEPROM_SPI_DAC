@@ -8,7 +8,7 @@ A program that receives audio byte from SEEPROM via I2C and sending it out to DA
 * Compiler: XC16
 * Board: Explorer 16/32 Development Kit
 * MCU: PIC24FJ128GA010
-* Memory: EEPROM 3 Click
+* External Memory: AT24CM02
 * DAC: MCP4801
 
 ### Software Block Diagram
