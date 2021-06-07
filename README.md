@@ -1,5 +1,8 @@
 # I2C_SEEPROM_SPI_DAC
 
+### Link to The Repository
+https://github.com/gokcit/I2C_SEEPROM_SPI_DAC
+
 ## Description
 A program that receives audio byte from SEEPROM via I2C and sending it out to DAC via SPI
 
