@@ -71,12 +71,12 @@ void PIN_MANAGER_Initialize (void)
     /****************************************************************************
      * Setting the GPIO Direction SFR(s)
      ***************************************************************************/
-    TRISA = 0xC6FC;
+    TRISA = 0xC6FE;
     TRISB = 0xFFFD;
     TRISC = 0x701E;
     TRISD = 0xFFFF;
     TRISE = 0x03FF;
-    TRISF = 0x30FF;
+    TRISF = 0x30BF;
     TRISG = 0xF3CF;
 
     /****************************************************************************

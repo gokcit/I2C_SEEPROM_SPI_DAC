@@ -201,152 +201,6 @@
 #define LED_SetDigitalOutput() (_TRISA0 = 0)
 /**
   @Summary
-    Sets the GPIO pin, RA1, high using LATA1.
-
-  @Description
-    Sets the GPIO pin, RA1, high using LATA1.
-
-  @Preconditions
-    The RA1 must be set to an output.
-
-  @Returns
-    None.
-
-  @Param
-    None.
-
-  @Example
-    <code>
-    // Set RA1 high (1)
-    LED_2_SetHigh();
-    </code>
-
-*/
-#define LED_2_SetHigh()          (_LATA1 = 1)
-/**
-  @Summary
-    Sets the GPIO pin, RA1, low using LATA1.
-
-  @Description
-    Sets the GPIO pin, RA1, low using LATA1.
-
-  @Preconditions
-    The RA1 must be set to an output.
-
-  @Returns
-    None.
-
-  @Param
-    None.
-
-  @Example
-    <code>
-    // Set RA1 low (0)
-    LED_2_SetLow();
-    </code>
-
-*/
-#define LED_2_SetLow()           (_LATA1 = 0)
-/**
-  @Summary
-    Toggles the GPIO pin, RA1, using LATA1.
-
-  @Description
-    Toggles the GPIO pin, RA1, using LATA1.
-
-  @Preconditions
-    The RA1 must be set to an output.
-
-  @Returns
-    None.
-
-  @Param
-    None.
-
-  @Example
-    <code>
-    // Toggle RA1
-    LED_2_Toggle();
-    </code>
-
-*/
-#define LED_2_Toggle()           (_LATA1 ^= 1)
-/**
-  @Summary
-    Reads the value of the GPIO pin, RA1.
-
-  @Description
-    Reads the value of the GPIO pin, RA1.
-
-  @Preconditions
-    None.
-
-  @Returns
-    None.
-
-  @Param
-    None.
-
-  @Example
-    <code>
-    uint16_t portValue;
-
-    // Read RA1
-    postValue = LED_2_GetValue();
-    </code>
-
-*/
-#define LED_2_GetValue()         _RA1
-/**
-  @Summary
-    Configures the GPIO pin, RA1, as an input.
-
-  @Description
-    Configures the GPIO pin, RA1, as an input.
-
-  @Preconditions
-    None.
-
-  @Returns
-    None.
-
-  @Param
-    None.
-
-  @Example
-    <code>
-    // Sets the RA1 as an input
-    LED_2_SetDigitalInput();
-    </code>
-
-*/
-#define LED_2_SetDigitalInput()  (_TRISA1 = 1)
-/**
-  @Summary
-    Configures the GPIO pin, RA1, as an output.
-
-  @Description
-    Configures the GPIO pin, RA1, as an output.
-
-  @Preconditions
-    None.
-
-  @Returns
-    None.
-
-  @Param
-    None.
-
-  @Example
-    <code>
-    // Sets the RA1 as an output
-    LED_2_SetDigitalOutput();
-    </code>
-
-*/
-#define LED_2_SetDigitalOutput() (_TRISA1 = 0)
-/**
-  @Summary
     Sets the GPIO pin, RB1, high using LATB1.
 
   @Description
@@ -491,6 +345,152 @@
 
 */
 #define nCS_DAC_SetDigitalOutput() (_TRISB1 = 0)
+/**
+  @Summary
+    Sets the GPIO pin, RF6, high using LATF6.
+
+  @Description
+    Sets the GPIO pin, RF6, high using LATF6.
+
+  @Preconditions
+    The RF6 must be set to an output.
+
+  @Returns
+    None.
+
+  @Param
+    None.
+
+  @Example
+    <code>
+    // Set RF6 high (1)
+    SCK1_SetHigh();
+    </code>
+
+*/
+#define SCK1_SetHigh()          (_LATF6 = 1)
+/**
+  @Summary
+    Sets the GPIO pin, RF6, low using LATF6.
+
+  @Description
+    Sets the GPIO pin, RF6, low using LATF6.
+
+  @Preconditions
+    The RF6 must be set to an output.
+
+  @Returns
+    None.
+
+  @Param
+    None.
+
+  @Example
+    <code>
+    // Set RF6 low (0)
+    SCK1_SetLow();
+    </code>
+
+*/
+#define SCK1_SetLow()           (_LATF6 = 0)
+/**
+  @Summary
+    Toggles the GPIO pin, RF6, using LATF6.
+
+  @Description
+    Toggles the GPIO pin, RF6, using LATF6.
+
+  @Preconditions
+    The RF6 must be set to an output.
+
+  @Returns
+    None.
+
+  @Param
+    None.
+
+  @Example
+    <code>
+    // Toggle RF6
+    SCK1_Toggle();
+    </code>
+
+*/
+#define SCK1_Toggle()           (_LATF6 ^= 1)
+/**
+  @Summary
+    Reads the value of the GPIO pin, RF6.
+
+  @Description
+    Reads the value of the GPIO pin, RF6.
+
+  @Preconditions
+    None.
+
+  @Returns
+    None.
+
+  @Param
+    None.
+
+  @Example
+    <code>
+    uint16_t portValue;
+
+    // Read RF6
+    postValue = SCK1_GetValue();
+    </code>
+
+*/
+#define SCK1_GetValue()         _RF6
+/**
+  @Summary
+    Configures the GPIO pin, RF6, as an input.
+
+  @Description
+    Configures the GPIO pin, RF6, as an input.
+
+  @Preconditions
+    None.
+
+  @Returns
+    None.
+
+  @Param
+    None.
+
+  @Example
+    <code>
+    // Sets the RF6 as an input
+    SCK1_SetDigitalInput();
+    </code>
+
+*/
+#define SCK1_SetDigitalInput()  (_TRISF6 = 1)
+/**
+  @Summary
+    Configures the GPIO pin, RF6, as an output.
+
+  @Description
+    Configures the GPIO pin, RF6, as an output.
+
+  @Preconditions
+    None.
+
+  @Returns
+    None.
+
+  @Param
+    None.
+
+  @Example
+    <code>
+    // Sets the RF6 as an output
+    SCK1_SetDigitalOutput();
+    </code>
+
+*/
+#define SCK1_SetDigitalOutput() (_TRISF6 = 0)
 /**
   @Summary
     Sets the GPIO pin, RF8, high using LATF8.
