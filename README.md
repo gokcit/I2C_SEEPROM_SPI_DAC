@@ -4,7 +4,7 @@
 https://github.com/gokcit/I2C_SEEPROM_SPI_DAC
 
 ## Description
-A program that receives audio byte from SEEPROM via I2C and sending it out to DAC via SPI
+A program that receives audio byte from SEEPROM via I2C and sends it out to DAC via SPI
 
 ### Technology Stack
 IDE: MPLAB X IDE
