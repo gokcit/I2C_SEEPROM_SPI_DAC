@@ -15,4 +15,4 @@ Memory: EEPROM 3 Click
 DAC: MCP4801
 
 ### Software Block Diagram
-![Alt text](https://github.com/gokcit/I2C_SEEPROM_SPI_DAC/blob/main/block_diagram.png "Software Block Diagram")
+![Alt text](https://github.com/gokcit/I2C_SEEPROM_SPI_DAC/blob/main/flow%20chart.png "Software Block Diagram")
